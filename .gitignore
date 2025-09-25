@@ -45,4 +45,15 @@ app.*.map.json
 /android/app/release
 -e 
 # Environment variables
-.env
+.kilocode/
+env
+
+# Web build files (may contain API keys)
+web/build/
+web/version.json
+
+# Firebase configuration files (may contain API keys)
+firebase-debug.log
+firebase-debug.*.log
+google-services.json
+GoogleService-Info.plist

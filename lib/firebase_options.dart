@@ -37,32 +37,32 @@ class DefaultFirebaseOptions {
   }
 
   static FirebaseOptions get web => FirebaseOptions(
-    apiKey: 'AIzaSyDLFB6Sj32tZDkgb4t2R5XRFgxIADMWLYw',
-    appId: '1:800818846322:web:b9c0eb50212ec21web',
-    messagingSenderId: '800818846322',
-    projectId: 'mtaasuite',
-    authDomain: 'mtaasuite.firebaseapp.com',
-    storageBucket: 'mtaasuite.firebasestorage.app',
-    measurementId: 'G-MEASUREMENT_ID',
-    databaseURL: 'https://mtaasuite-default-rtdb.firebaseio.com',
+    apiKey: dotenv.env['FIREBASE_WEB_API_KEY'] ?? 'your_web_api_key_here',
+    appId: dotenv.env['FIREBASE_WEB_APP_ID'] ?? 'your_web_app_id_here',
+    messagingSenderId: dotenv.env['FIREBASE_MESSAGING_SENDER_ID'] ?? 'your_sender_id',
+    projectId: dotenv.env['FIREBASE_PROJECT_ID'] ?? 'your_project_id',
+    authDomain: dotenv.env['FIREBASE_AUTH_DOMAIN'] ?? 'your_project.firebaseapp.com',
+    storageBucket: dotenv.env['FIREBASE_STORAGE_BUCKET'] ?? 'your_project.appspot.com',
+    measurementId: dotenv.env['FIREBASE_MEASUREMENT_ID'] ?? 'G-MEASUREMENT_ID',
+    databaseURL: dotenv.env['FIREBASE_DATABASE_URL'] ?? 'https://your_project-default-rtdb.firebaseio.com',
   );
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDLFB6Sj32tZDkgb4t2R5XRFgxIADMWLYw',
-    appId: '1:800818846322:android:67ae32f50212ec21b9c0eb',
-    messagingSenderId: '800818846322',
-    projectId: 'mtaasuite',
-    storageBucket: 'mtaasuite.firebasestorage.app',
-    databaseURL: 'https://mtaasuite-default-rtdb.firebaseio.com',
+  static FirebaseOptions get android => FirebaseOptions(
+    apiKey: dotenv.env['FIREBASE_ANDROID_API_KEY'] ?? 'your_android_api_key_here',
+    appId: dotenv.env['FIREBASE_ANDROID_APP_ID'] ?? 'your_android_app_id_here',
+    messagingSenderId: dotenv.env['FIREBASE_MESSAGING_SENDER_ID'] ?? 'your_sender_id',
+    projectId: dotenv.env['FIREBASE_PROJECT_ID'] ?? 'your_project_id',
+    storageBucket: dotenv.env['FIREBASE_STORAGE_BUCKET'] ?? 'your_project.appspot.com',
+    databaseURL: dotenv.env['FIREBASE_DATABASE_URL'] ?? 'https://your_project-default-rtdb.firebaseio.com',
   );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDLFB6Sj32tZDkgb4t2R5XRFgxIADMWLYw',
-    appId: '1:800818846322:ios:b9c0eb50212ec21',
-    messagingSenderId: '800818846322',
-    projectId: 'mtaasuite',
-    storageBucket: 'mtaasuite.firebasestorage.app',
-    databaseURL: 'https://mtaasuite-default-rtdb.firebaseio.com',
-    iosBundleId: 'tz.co.mtaasuite.mtaasuite',
+  static FirebaseOptions get ios => FirebaseOptions(
+    apiKey: dotenv.env['FIREBASE_IOS_API_KEY'] ?? 'your_ios_api_key_here',
+    appId: dotenv.env['FIREBASE_IOS_APP_ID'] ?? 'your_ios_app_id_here',
+    messagingSenderId: dotenv.env['FIREBASE_MESSAGING_SENDER_ID'] ?? 'your_sender_id',
+    projectId: dotenv.env['FIREBASE_PROJECT_ID'] ?? 'your_project_id',
+    storageBucket: dotenv.env['FIREBASE_STORAGE_BUCKET'] ?? 'your_project.appspot.com',
+    databaseURL: dotenv.env['FIREBASE_DATABASE_URL'] ?? 'https://your_project-default-rtdb.firebaseio.com',
+    iosBundleId: dotenv.env['FIREBASE_IOS_BUNDLE_ID'] ?? 'your_bundle_id',
   );
 }
