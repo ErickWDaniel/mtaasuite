@@ -1,0 +1,82 @@
+{
+  "app": {
+    "loading": "Loading...",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "common": {
+    "language_english": "Language"
+  },
+  "auth": {
+    "loading_profile": "Loading profile...",
+    "login": {
+      "title": "Sign In",
+      "phone_label": "Phone Number",
+      "phone_hint": "Enter your phone number",
+      "otp_label": "OTP Code",
+      "otp_hint": "Enter 6-digit OTP code",
+      "send_otp": "Send OTP",
+      "verify_otp": "Verify OTP",
+      "otp_sent": "OTP sent successfully",
+      "otp_sent_to": "OTP sent to:",
+      "otp_invalid": "Please enter a valid 6-digit OTP",
+      "change_phone": "Change Phone",
+      "forgot_password": "Forgot Password?",
+      "no_account": "Don't have an account?",
+      "create_account": "Sign Up",
+      "resend_otp": "Resend OTP"
+    },
+    "register": {
+      "title": "Create Account",
+      "personal_info": "Personal Information",
+      "location_info": "Location Information",
+      "verification": "Phone Verification",
+      "full_name": "Full Name",
+      "full_name_hint": "Enter your full name",
+      "phone": "Phone Number",
+      "phone_hint": "Enter your phone number",
+      "citizen": "Citizen",
+      "ward_officer": "Ward Officer",
+      "male": "Male",
+      "female": "Female",
+      "gender": "Gender",
+      "date_of_birth": "Date of Birth",
+      "dob_hint": "Select your date of birth",
+      "address": "Address",
+      "address_hint": "Enter your address",
+      "street": "Street/Village",
+      "street_hint": "Enter street or village name",
+      "house_number": "House Number",
+      "house_number_hint": "Enter house number",
+      "region": "Region",
+      "district": "District",
+      "ward": "Ward",
+      "loading_regions": "Loading regions...",
+      "loading_districts": "Loading districts...",
+      "loading_wards": "Loading wards...",
+      "select_region": "Select region",
+      "select_district": "Select district",
+      "select_ward": "Select ward",
+      "check_number": "Check Number",
+      "check_number_hint": "Enter your check number",
+      "required_field": "This field is required",
+      "send_otp": "Send OTP",
+      "verify_otp": "Verify OTP",
+      "otp_sent": "OTP sent successfully",
+      "otp_sent_to": "OTP sent to:",
+      "resend_otp": "Resend OTP",
+      "ready_to_send_otp": "Ready to send OTP to your phone number"
+    },
+    "success": {
+      "title": "Authentication Successful!",
+      "welcome": "Welcome",
+      "citizen_message": "You have successfully signed in to MtaaSuite. Access community services and stay connected with your local government.",
+      "ward_message": "You have successfully signed in as a Ward Officer. Manage community services and serve your constituents effectively.",
+      "preparing_dashboard": "Preparing your dashboard...",
+      "skip": "Skip"
+    }
+  },
+  "validation": {
+    "required": "This field is required"
+  }
+}

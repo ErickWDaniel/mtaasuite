@@ -1,0 +1,114 @@
+name: mtaasuite
+description: "MtaaSuite – A unified community and local government service app built with Flutter."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core & Firebase
+  firebase_core: ^4.1.0
+  firebase_auth: ^6.0.2
+  firebase_database: ^12.0.1
+  firebase_storage: ^13.0.1
+  cloud_firestore: ^6.0.1
+  cloud_functions: ^6.0.1
+
+  # OTP & Phone Authentication (ADDED)
+  pin_code_fields: ^8.0.1
+  intl_phone_field: ^3.2.0
+  sms_autofill: ^2.3.0
+
+  # Networking & Utilities
+  dio: ^5.0.1
+  http: ^1.3.0
+  shared_preferences: ^2.5.2
+  flutter_secure_storage: ^9.2.4
+  path_provider: ^2.1.5
+  uuid: ^4.5.1
+  logging: ^1.3.0
+  logger: ^2.5.0
+
+  # UI / UX Enhancements
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  cached_network_image: ^3.2.0
+  animated_text_kit: ^4.2.3
+  shimmer: ^3.0.0
+  flutter_spinkit: ^5.2.1
+  animate_do: ^4.2.0
+  flutter_staggered_animations: ^1.1.1
+  confetti: ^0.8.0
+  carousel_slider: ^5.1.1
+  flutter_svg: ^1.1.6
+  flutter_rating_bar: ^4.0.1
+  ticket_widget: ^1.0.2
+  book_my_seat: ^1.0.1
+  screenshot: ^3.0.0
+
+  # Charts / Visualization
+  fl_chart: ^1.0.0
+  syncfusion_flutter_charts: ^29.2.4
+
+  # System Integration
+  image_picker: ^1.1.2
+  permission_handler: ^12.0.0+1
+  url_launcher: ^6.1.7
+  connectivity_plus: ^6.1.3
+  flutter_inappwebview: ^6.1.5
+  flutter_file_dialog: ^3.0.2
+  flutter_haptic_feedback: ^1.0.1
+
+  # Localization / Text
+  intl: ^0.20.2
+  easy_localization: ^3.0.7+1
+  flutter_tts: ^4.2.3
+  speech_to_text: ^7.0.0
+
+  # Export & Sharing
+  pdf: ^3.8.0
+  printing: ^5.14.2
+  csv: ^6.0.0
+  share_plus: ^11.0.0
+
+  # State Management
+  provider: ^6.1.5
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+  flutter_session_manager: ^1.0.3
+
+  # Misc
+  package_info_plus: ^8.2.1
+  flutter_dotenv: ^5.1.0
+  firebase_app_check: ^0.4.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.3.3
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/images/mtaasuitelogo.png
+    - assets/translation/en.json
+    - assets/translation/sw.json
+    - assets/fallbackdata/citizen/
+    - assets/fallbackdata/ward/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/mtaasuitelogo.png"
+  remove_alpha_ios: true
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/mtaasuitelogo.png"

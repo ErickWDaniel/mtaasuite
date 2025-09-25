@@ -1,0 +1,41 @@
+[
+  {
+    "checkNumber": "WARD001",
+    "name": "John Mwakyusa",
+    "phone": "0789123456",
+    "region": "Dar es Salaam",
+    "district": "Ilala",
+    "ward": "Makoka"
+  },
+  {
+    "checkNumber": "WARD002",
+    "name": "Aisha Mushi",
+    "phone": "0756234567",
+    "region": "Dodoma",
+    "district": "Dodoma Urban",
+    "ward": "Madukani"
+  },
+  {
+    "checkNumber": "WARD003",
+    "name": "Joseph John",
+    "phone": "0777123456",
+    "region": "Arusha",
+    "district": "Arusha Urban",
+    "ward": "Kaloleni"
+  },
+    {
+    "checkNumber": "WARD004",
+    "name": "John Doe",
+    "phone": "0781234567",
+    "ward": "Kijiji",
+    "street": "Main St"
+  },
+  {
+    "checkNumber": "WARD005",
+    "name": "Jane Smith",
+    "phone": "0787654321",
+    "ward": "Mtaa",
+    "street": "Second Ave"
+  }
+  
+]

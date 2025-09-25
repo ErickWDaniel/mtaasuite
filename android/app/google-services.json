@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "800818846322",
+    "firebase_url": "https://mtaasuite-default-rtdb.firebaseio.com",
+    "project_id": "mtaasuite",
+    "storage_bucket": "mtaasuite.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800818846322:android:8bf64268b04bb085b9c0eb",
+        "android_client_info": {
+          "package_name": "tz.co.mtaasuite.mtaasuite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLFB6Sj32tZDkgb4t2R5XRFgxIADMWLYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

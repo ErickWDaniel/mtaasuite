@@ -1,0 +1,82 @@
+{
+  "app": {
+    "loading": "Inapakia...",
+    "next": "Ifuatayo",
+    "previous": "Iliyotangulia"
+  },
+  "common": {
+    "language_english": "Lugha"
+  },
+  "auth": {
+    "loading_profile": "Inapakia profaili...",
+    "login": {
+      "title": "Ingia",
+      "phone_label": "Namba ya Simu",
+      "phone_hint": "Ingiza namba ya simu yako",
+      "otp_label": "OTP",
+      "otp_hint": "Faa namba 6 zifu",
+      "send_otp": "Tuma OTP",
+      "verify_otp": "Thibitisha OTP",
+      "otp_sent": "OTP imetumwa",
+      "otp_sent_to": "OTP imetumwa kwa:",
+      "otp_invalid": "Tafadhali ingiza OTP ya tarakimu 6 sahihi",
+      "change_phone": "Badilisha Simu",
+      "forgot_password": "Umesahau Nenosiri?",
+      "no_account": "Huna akaunti?",
+      "create_account": "Jisajili",
+      "resend_otp": "Tuma OTP Tena"
+    },
+    "register": {
+      "title": "Unda Akaunti",
+      "personal_info": "Maelezo ya Kibinafsi",
+      "location_info": "Maelezo ya Mahali",
+      "verification": "Uthibitisho wa Simu",
+      "full_name": "Jina Kamili",
+      "full_name_hint": "Ingiza jina lako kamili",
+      "phone": "Namba ya Simu",
+      "phone_hint": "Ingiza namba ya simu yako",
+      "citizen": "Mwananchi",
+      "ward_officer": "Afisa wa Kata",
+      "male": "Mume",
+      "female": "Mke",
+      "gender": "Jinsia",
+      "date_of_birth": "Tarehe ya Kuzaliwa",
+      "dob_hint": "Chagua tarehe ya kuzaliwa",
+      "address": "Anwani",
+      "address_hint": "Ingiza anwani yako",
+      "street": "Mtaa/Kijiji",
+      "street_hint": "Ingiza jina la mtaa au kijiji",
+      "house_number": "Namba ya Nyumba",
+      "house_number_hint": "Ingiza namba ya nyumba",
+      "region": "Mkoa",
+      "district": "Wilaya",
+      "ward": "Kata",
+      "loading_regions": "Inapakia mikoa...",
+      "loading_districts": "Inapakia wilaya...",
+      "loading_wards": "Inapakia kata...",
+      "select_region": "Chagua mkoa",
+      "select_district": "Chagua wilaya",
+      "select_ward": "Chagua kata",
+      "check_number": "Namba ya Uthibitisho",
+      "check_number_hint": "Ingiza namba ya uthibitisho",
+      "required_field": "Sehemu hii ni lazima",
+      "send_otp": "Tuma OTP",
+      "verify_otp": "Thibitisha OTP",
+      "otp_sent": "OTP imetumwa",
+      "otp_sent_to": "OTP imetumwa kwa:",
+      "resend_otp": "Tuma OTP Tena",
+      "ready_to_send_otp": "Tayari kutuma OTP kwa namba yako ya simu"
+    },
+    "success": {
+      "title": "Uthibitisho Umefanikiwa!",
+      "welcome": "Karibu",
+      "citizen_message": "Umefanikiwa kuingia kwenye MtaaSuite. Pata huduma za kijamii na uwasiliane na serikali yako ya mitaa.",
+      "ward_message": "Umefanikiwa kuingia kama Afisa wa Kata. Simamia huduma za kijamii na uwahudumie wananchi wako kwa ufanisi.",
+      "preparing_dashboard": "Inaandaa dashibodi yako...",
+      "skip": "Ruka"
+    }
+  },
+  "validation": {
+    "required": "Sehemu hii ni lazima"
+  }
+}
